@@ -87,7 +87,22 @@ module.exports = {
 Dotenv package allow us to NOT expose sensible data from hardcoding it, this allow to use .env file from where use url, passwords and other sensible data keeping it out of users scoop where they can't read it into server processes
 
 Data is written into .env and called from process.env.REACT_APP_[VAR_NAME] and its use like a common variable.
+~~~
+npm i dotenv
+~~~
 
+
+###### UI
+Bootswatch is a bootstrap style themes that provide all core functionalities. It doesn't come with js bootstrap files, to use modals and other components that need bootstrap bundle javascript the core bootstrap package is needed. Even some bootstrap widgets & components require JQuery. Icons will be handle with bootstrap-icons.
+~~~
+npm i bootswatch bootstrap jquery
+~~~
+
+###### AXIOS
+Axios allow to properly make http requests
+~~~
+npm axios
+~~~
 
 
 ## init view
@@ -130,8 +145,6 @@ This view has a section title, a form that is used to add objects or edit them. 
 
 
 
-## UI
-Bootswatch is a bootstrap style themes that provide all core functionalities. It doesn't come with js bootstrap files, to use modals and other components that need bootstrap bundle javascript the core bootstrap package is needed. Icons will be handle with bootstrap-icons.
 
 
 
